@@ -1,3 +1,9 @@
+#longest common subsequence
+'''
+A subsequence is a part of a string where characters appear in the same order, but not necessarily next to each other.
+For example, in the string ABCDEFG, ABEF is a subsequence but BAD isn’t.
+The LCS problem requires us to find the length of the longest subsequence that exists in both strings.
+'''
 def LCS(X, Y):
     # Length of strings
     m = len(X)
